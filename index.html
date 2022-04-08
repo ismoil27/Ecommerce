@@ -19,9 +19,16 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fal fa-shopping-bag"></i></a></li>
+                <li id="lg-bag" ><a href="cart.html"><i class="fal fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
             </ul>
         </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fal fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent" ></i>
+        </div>
+
     </section>
     <section id="hero">
         <h4>Trade-in-offer</h4>
@@ -375,7 +382,7 @@
 
     </section>
 
-    <footer class="section-p1">
+    <footer class="section-p1 footer">
         <div class="col">
             <img class="logo__footer" src="./img/logo.png" alt="">
             <h4>Contact</h4>
@@ -409,7 +416,27 @@
             <a href="#">Track My Order </a>
             <a href="#">Help</a>
         </div>
+
+         <div class="col install">
+             <h4>Install App</h4>
+             <p>From App Store or Google Play</p>
+             <div class="row">
+                 <img class="store" src="./img/appstore.png" alt="">
+                 <img class="store" src="./img/googlePlay.png" alt="">
+             </div>
+             <p>Secured Payment Gateways</p>
+             <img class="payment__img" src="./img/payment-removebg-preview.png" alt="">
+         </div>
+
+         <!-- <div class="copyright">
+             <p>&copy 2022 HTML CSS Ecommerce Template </p>
+         </div> -->
     </footer>
+    <div class="copyright">
+        <p>&copy 2022 HTML CSS Ecommerce Template </p>
+    </div>
+
+    <script src="index.js" ></script>
 
 </body>
 </html>
