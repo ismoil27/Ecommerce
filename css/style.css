@@ -732,6 +732,10 @@ footer .install img {
 
 /* ==============About page============ */
 
+#page-header.about-header {
+  background-image: url(../img/banner.webp);
+}
+
 /* ============ MEDIA QUERY ===========*/
 
 @media (max-width: 799px) {
